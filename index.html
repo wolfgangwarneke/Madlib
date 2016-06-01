@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Madlib</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mad Libs</h1>
+      <h3>Fill out the forms with whatever word you want!</h3>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person1">A name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="place">Place</label>
+            <input id="place" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="noun">Noun</label>
+            <input id="noun" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="ingverb">A verb ending with "ing"</label>
+            <input id="ingverb" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="adverb">Adverb</label>
+            <input id="adverb" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="person2">A name</label>
+            <input id="person2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="number">Number</label>
+            <input id="number" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Let's do this!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>A Funny Friday</h1>
+        <p>One Friday while getting ready to go to work, <span class="person1"></span> suddenly barged into my house saying he had just came from <span class="place"></span>. He told me he had been <span class="ingverb"></span> if I would be able to provide him with a <span class="noun"></span>!</p>
+        <p>Laughing <span class="adverb"></span>, I informed him that <span class="person2"></span> may be able to help, especially since he's done that about <span class="number"></span> times!  After all, what happens in <span class="place"></span> stays in <span class="place"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
