@@ -34,4 +34,8 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  $(".btn-danger").click(function() {
+    $("#story").hide();
+  });
 });
